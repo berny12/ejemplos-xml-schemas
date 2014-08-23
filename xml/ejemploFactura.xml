@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<con:XMLBFactura xmlns:con="http://www.synergyj.com/cursos/webservices/container">
+  <orden>
+    <fechaOrden>2014-08-23T11:57:59.945-05:00</fechaOrden>
+    <sucursal>Central</sucursal>
+    <numeroOrden>1084938493943</numeroOrden>
+    <cliente>
+      <nombre>Mariana</nombre>
+      <apellidoPaterno>López</apellidoPaterno>
+      <apellidoMaterno>Juarez</apellidoMaterno>
+      <sexo>M</sexo>
+    </cliente>
+    <producto>
+      <numeroProducto>1293023</numeroProducto>
+      <nombreProducto>LAPICERO</nombreProducto>
+      <descripcion>LAPICERO BEROL PUNTO 05</descripcion>
+    </producto>
+    <producto>
+      <numeroProducto>454930</numeroProducto>
+      <nombreProducto>ESCRITORIO EJECUTIVO</nombreProducto>
+      <descripcion>ESCRITORIO OFICINA MADERA COMPRIMIDA</descripcion>
+    </producto>
+    <producto>
+      <numeroProducto>34532</numeroProducto>
+      <nombreProducto>SILLA EJECUTIVA</nombreProducto>
+      <descripcion>SILLA RECLINABLE PARA OFICINA</descripcion>
+    </producto>
+  </orden>
+  <detalleFactura>
+    <producto>
+      <claveProducto>LAPBEROL05</claveProducto>
+      <cantidad>1</cantidad>
+      <precioUnitario>50.0</precioUnitario>
+      <iva>7.5</iva>
+    </producto>
+    <producto>
+      <claveProducto>ESCRITOOFFMD1</claveProducto>
+      <cantidad>1</cantidad>
+      <precioUnitario>3000.0</precioUnitario>
+      <iva>450.0</iva>
+    </producto>
+    <producto>
+      <claveProducto>SLEJEREE3</claveProducto>
+      <cantidad>1</cantidad>
+      <precioUnitario>1000.0</precioUnitario>
+      <iva>150.0</iva>
+    </producto>
+  </detalleFactura>
+  <total>4657.5</total>
+  <iva>698.625</iva>
+</con:XMLBFactura>
